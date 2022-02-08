@@ -10,7 +10,7 @@ In this unit, coders will create a Playlist. The Playlist will display a list of
 
 #### Planning
 
-- [ ] Complete the project planning document.
+- [X] Complete the project planning document.
 
 #### GitHub Set-Up
 

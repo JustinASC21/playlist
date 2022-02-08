@@ -1,4 +1,8 @@
 // Complete Day 1 goals here
+let songTitles = ["Home","B", "C"];
+let songArtists = ["Auth1","Auth2","Auth3"];
+let songImages = ["image1","image2","image3"];
+let songLinks = ["link1","link2","link3"];
 
 function displaySongInfo() {
   // Complete the Day 2 goals inside this function
