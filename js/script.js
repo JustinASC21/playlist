@@ -1,11 +1,25 @@
 // Complete Day 1 goals here
-let songTitles = ["Home","B", "C"];
-let songArtists = ["Auth1","Auth2","Auth3"];
-let songImages = ["image1","image2","image3"];
-let songLinks = ["link1","link2","link3"];
+let songTitles = ["Home","Heat Waves", "Good 4 U"];
+let songArtists = ["Edward Sharpe and the Magne","Glass Animals","Olivia Rodrigo"];
+let songImages = ["https://cdn.glitch.global/98016f2c-a3fe-41df-b545-722efd1efb47/download.jpg?v=1644965713407","https://charts-static.billboard.com/img/2020/07/glass-animals-rtd-heat-waves-o3i-180x180.jpg","https://charts-static.billboard.com/img/2021/05/olivia-rodrigo-3wl-good-4-u-7ek-180x180.jpg"];
+let songLinks = ["https://www.youtube.com/watch?v=DHEOF_rcND8","https://www.youtube.com/watch?v=mRD0-GxqHVo","https://www.youtube.com/watch?v=gNi_6U5Pm_o"];
+let songsSum = [];
+// for (let i = 1; i < songTitles.length; i++) {
+//   songsSum += songTitles[i];
+// }
 
 function displaySongInfo() {
   // Complete the Day 2 goals inside this function
+  songTitles.forEach(function(songTitle) {
+  console.log(songTitle);
+  $(".songs").append(`<h4>${songTitle}</h4>`);
+});
+  songArtists.forEach(function(songArtist) {
+    $(".artists").append(`<h5>${songArtist}</h5>`)
+  });
+  songImages.forEach(function(image,index) {
+    $(".images").append(`<a href = ${songLinks[index]}><img src = ${image}></a>`);
+  });
 }
 
 function emptySongInfo() {
