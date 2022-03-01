@@ -1,7 +1,14 @@
 h1 {
   text-align: center;
 }
-
+h2 {
+  text-align: center;
+}
+h4, h5{
+  margin-left: 30%;
+  margin-top: 60%;
+  color: orange;
+}
 .display {
   display: flex;
   justify-content: center;
@@ -18,14 +25,14 @@ h1 {
   display: block;
   height: 100px;
   width: auto;
-/*   margin: 20px; */
+  margin-left: 30%;
+  margin-top: 20%;
 }
-
 .songs p {
   font-size: 18px;
   height: 100px;
   font-weight: bold;
-  margin: 20px;
+  
 }
 
 .artists p {
@@ -58,9 +65,14 @@ h1 {
 input {
   padding: 5px 10px;
   font-size: 14px;
+    border-radius: 10%;
+  border: yellow solid 2px;
 }
 
 button {
   font-size: 14px;
   padding: 5px 10px;
+ border-radius: 10%;
+  border: yellow solid 2px;
+  background-color: lightblue;
 }
