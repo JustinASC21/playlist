@@ -1,13 +1,28 @@
+body {
+  background-color: #75B9BE;
+}
 h1 {
   text-align: center;
+  color : #EF3E36;
 }
 h2 {
   text-align: center;
+  color: #EF3E36;
+}
+p {
+  color: #EF3E36;
 }
 h4, h5{
-  margin-left: 30%;
-  margin-top: 60%;
-  color: orange;
+/*   margin-left: 30%; */
+/*   margin-top: 60%; */
+  color: #EF3E36;
+}
+.container {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .display {
   display: flex;
@@ -17,7 +32,7 @@ h4, h5{
 }
 
 .column {
-  width: 18%;
+  width: 30%;
   padding: 25px 0px;
 }
 
@@ -25,8 +40,8 @@ h4, h5{
   display: block;
   height: 100px;
   width: auto;
-  margin-left: 30%;
-  margin-top: 20%;
+/*   margin-left: 30%; */
+/*   margin-top: 20%; */
 }
 .songs p {
   font-size: 18px;
